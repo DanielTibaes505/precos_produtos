@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Aplica Desconto</title>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap" rel="stylesheet">
+  
+  
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <main>
+    <article>
+      <div class="conteiner_box_system">
+        <div class="grid_header">
+          <h1>SUPERMERCADO PÃO NOSSO</h1>
+        </div>
+        <div class="grid_box_inputs">
+          
+            <div>
+              <label for="nProd">Digite o N° do produto:</label></br>
+              <input type="number" id="nProd" maxlength="5">
+            </div>
+            <div>
+              <label for="prod">Produtos: </label></br>
+              <input type="text" id="input_produtos" disabled>
+            </div>
+            <div class="grid_valores_produtos">
+              <div>
+                <label for="valor_uni">Valor Unitário</label></br>
+                <input type="text" id="input_valor_uni" disabled>
+              </div>
+              <div class="input_quant_prod">
+                <label for="quant_prod">Quant.Prod</label></br>
+                <input type="number" id="quant_prod" maxlength="3">
+              </div>
+              
+            </div>
+          
+        </div>
+        
+        <div class="grid_btn_calc">
+          <button onclick="btnAction()">Calcular</button>
+        </div>
+        <div class="grid_display_result">
+          <input type="text" id="input_display_result" placeholder="Result..." disabled>
+        </div>
+      </div>
+    </article>
+    <footer>
+      <div class="conteiner_rodape">
+        <div>
+          <a href="https://github.com/DanielTibaes505"><img src="/img/github.jpg" alt="github" class="img_github"></a>
+        </div>
+        <div>
+            <a href="https://www.linkedin.com/in/daniel-tibaes-55494a215"><img src="/img/linkeedin.jpg" alt="linkeedin" class="img_linkeedin"></a>
+        </div>
+      </div>
+      
+    </footer>
+  </main>
+  <!-- Project -->
+  <script src="main.js"></script>
+</body>
+</html>

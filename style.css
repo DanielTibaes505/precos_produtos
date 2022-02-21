@@ -1,0 +1,95 @@
+html, body{
+  
+  margin: 0;
+  padding: 0;
+}
+body{
+  
+  font-size: 62,52%;
+  background-color: #dbdbdb;
+}
+input{
+  
+  background-color: white;
+  border-color: #c4c4c4;
+  border-radius: 4px;
+  margin-bottom: 19px;
+}
+label{
+  
+   font-family: 'Oswald', sans-serif;
+   font-size: 0.9em;
+}
+.conteiner_box_system{
+  
+  margin-left: 8%;
+  margin-top: 80px;
+  background: #f5f5f5;
+  width: 80%;
+  height: 500px;
+  padding: 10px;
+  border-radius: 7px;
+ 
+
+}
+.grid_valores_produtos{
+  
+  display: flex;
+}
+.input_quant_prod > input {
+  
+  width: 50px;
+  border-radius: 4px;
+  margin-left: 10px
+
+}
+.input_quant_prod > label {
+  
+  font-size: 0.9em;
+  margin-left: 8px;
+}
+.grid_btn_calc > button{
+  
+  width: 125px;
+  height: 50px;
+  border-radius: 5px;
+  background-color: #41753b;
+  border-color: transparent;
+  color: white;
+}
+.grid_display_result > input{
+  
+  margin-top: 30px;
+  width: 300px;
+  height: 80px;
+  margin-left: 2px;
+}
+.grid_header > h1{
+  
+  font-family: 'Dancing Script', cursive;
+  font-size: 1em;
+  color: darkred;
+  margin-bottom: 30px;
+  
+}
+.conteiner_rodape{
+  
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+  
+  
+}
+.img_github{
+  
+  width: 45px;
+  height: 45px;
+  border-radius: 25px;
+  margin-right: 20px;
+}
+.img_linkeedin{
+  
+  width: 45px;
+  height: 45px;
+  border-radius: 25px;
+}
